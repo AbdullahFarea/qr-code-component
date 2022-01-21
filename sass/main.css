@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit, sans-serif;
+}
+
+body {
+  font-size: 15px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 90rem;
+  background-color: #d6e2f0;
+}
+.main .qr-card {
+  width: 18rem;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-align: center;
+}
+.main .qr-card .img-container {
+  width: 100%;
+  height: 16em;
+  overflow: hidden;
+  border-radius: 1em;
+}
+.main .qr-card .img-container .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main .qr-card .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  padding-top: 0;
+}
+.main .qr-card .text .title {
+  color: #1f3251;
+  font-size: 1.3em;
+}
+.main .qr-card .text .desc {
+  color: #7b879d;
+  font-size: 0.9em;
+}
+
+/*# sourceMappingURL=main.css.map */
